@@ -1,0 +1,33 @@
+/* commponents/common/goods.wxss */
+.goods-item{
+  position: relative;
+  border-radius:20rpx ;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ 
+}
+.goods-item image{
+width: 100%;
+height: 85%;
+}
+.title{
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.price{
+  color: #ff7777;
+}
+.cfav{
+  position: relative;
+  bottom: 0;
+  right: -100rpx;
+}
+.goods-item .cfavimg{
+  width: 38rpx;
+  height: 38rpx;
+  position: absolute;
+  right: 148rpx;
+}

@@ -1,0 +1,8 @@
+/* pages/category/category.wxss */
+button{
+  margin-top: 200rpx;
+}
+.title{
+  font-size: 20px;
+  color: red;
+}

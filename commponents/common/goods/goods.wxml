@@ -1,0 +1,12 @@
+<!--commponents/common/goods.wxml-->
+<view class="goods-item">
+<image src="{{item.show.img}}"/>
+<view class="title">{{item.title}}</view>
+ <text class="price">{{item.orgPrice}}</text>
+ <image src="../../../assets/img/sc.png" 
+ class="cfavimg"
+ lazy-load="{{true}}" />
+ <text class="cfav">{{item.cfav}}</text>
+
+</view>
+

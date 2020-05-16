@@ -1,0 +1,4 @@
+<!--pages/car/car.wxml-->
+<text>你好啊！</text>
+         <open-data type="userNickName" class="title" />
+<view>这是购物车页面</view>

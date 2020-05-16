@@ -1,0 +1,20 @@
+/* commponents/common/Tabbar/tabbar.wxss */
+.tabbar{
+  /* margin-top: 37rpx; */
+  margin-bottom: 30rpx;
+  display: flex;
+  text-align: center;
+  height: 80rpx;
+  width: 100%;
+  line-height: 80rpx;
+  background: #ffff;
+  position: relative;
+}
+.tabbar-iteam{
+  flex: 1;
+}
+.active{
+  /* padding: 10rpx; */
+  color: #ff7777;
+  border-bottom: 4rpx solid#ff7777;
+}

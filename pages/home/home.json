@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "s-swiper":"../../commponents/common/swipers/s-swiper",
+    "s-recommend":"./childern/recommend/s-recommend",
+    "tabbar":"../../commponents/common/Tabbar/tabbar",
+    "goods":"../../commponents/common/goods/goods",
+    "scolltop":"../../commponents/common/scollTop/scollTop"
+    
+  },
+  "navigationBarTitleText": "购物街"
+}

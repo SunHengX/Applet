@@ -1,0 +1,19 @@
+/* pages/home/childern/recommend/s-recommend.wxss */
+.recommend{
+  display: flex;
+
+}
+.recommend-iteam{
+  flex: 1;
+  height: 200rpx;
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  padding-bottom:40rpx ;
+  border-bottom: 18rpx solid #eee;
+  color: #555;
+}
+.recommend-iteam image{
+  width: 90%;
+  height: 80%;
+}

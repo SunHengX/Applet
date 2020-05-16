@@ -1,0 +1,11 @@
+<!--commponents/common/Tabbar/tabbar.wxml-->
+<view class="tabbar">
+<block wx:for="{{list}}"
+ wx:key="{{index}}">
+<view class="tabbar-iteam" 
+bind:tap="changeIndex"
+data-index="{{index}}">
+<text class="{{coIndex==index ? 'active' : ''}}">{{item}}</text>
+</view>
+</block>
+</view>

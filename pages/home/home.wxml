@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<scroll-view
+scroll-y="{{true}}">
+<s-swiper banners="{{banners}}" />
+<s-recommend recommends="{{recommends}}" 
+bind:imageload="handeLoad"
+ />
+<view class="home-list">
+<image  src="/assets/home/recommend.jpg" />
+</view>
+<tabbar list="{{list}}" 
+bind:itemclick="getList"
+id="tab-con"
+class="{{isFixed ? 'fixed' : 'hide'}}"
+/>
+<tabbar list="{{list}}" 
+bind:itemclick="getList"
+
+wx:if="{{isFixed}}"
+/>
+<view class="goods">
+<block wx:for="{{goods[cuType].list}}">
+<goods item="{{item}}" class="goods-item"/>
+<scolltop  wx:if="{{optiondata}}"/>
+</block>
+</view>
+</scroll-view>

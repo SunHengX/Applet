@@ -1,0 +1,9 @@
+<!--pages/home/childern/recommend/s-recommend.wxml-->
+<view class="recommend">
+<block wx:for="{{recommends}}" wx:key="{{index}}">
+<view class="recommend-iteam">
+<image src="{{item.image}}" bindload="changFix"></image>
+<view>{{item.title}}</view>
+</view>
+</block>
+</view>

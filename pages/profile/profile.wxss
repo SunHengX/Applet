@@ -1,0 +1,5 @@
+/* pages/profile/profile.wxss */
+.title{
+  color: red;
+  font-size: 40rpx;
+}

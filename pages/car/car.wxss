@@ -1,0 +1,6 @@
+/* pages/car/car.wxss */
+
+.title{
+  color: red;
+  font-size: 40rpx;
+}

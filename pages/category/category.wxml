@@ -1,0 +1,8 @@
+<!--pages/category/category.wxml-->
+<button open-type="getUserInfo"
+         bindgetuserinfo="getusername"
+         type="warn"
+         bindtap="getname">点击授权</button>
+         <!-- <text>你好啊！</text>
+         <open-data type="userNickName" /> -->
+         <view wx:if="{{show}}" class="title">欢迎您，你看看别的页面吧，这个还没弄好</view>

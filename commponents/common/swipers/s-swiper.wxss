@@ -1,0 +1,9 @@
+/* commponents/common/s-swiper.wxss */
+.imgsize{
+  /* width:100% ; */
+  width: 100%;
+  height:100%;
+}
+swiper{
+  height: 380rpx;
+}

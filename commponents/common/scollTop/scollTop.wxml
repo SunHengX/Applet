@@ -1,0 +1,3 @@
+<!--commponents/common/scollTop/scollTop.wxml-->
+<view class="scollTop">  <image src="../../../assets/img/goback.png"
+                      bind:tap="gotop" />   </view>

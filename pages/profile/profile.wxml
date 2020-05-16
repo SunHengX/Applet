@@ -1,0 +1,6 @@
+<!--pages/profile/profile.wxml-->
+<!-- <button open-type="getUserInfo"
+         bindgetuserinfo="getusername">点击授权</button> -->
+<text>你好啊！</text>
+         <open-data type="userNickName" class="title" />
+<view>这是登录页面</view>
